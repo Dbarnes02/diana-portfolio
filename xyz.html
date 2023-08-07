@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Diana Barnes | diana.barnes.357@gmail.ca">
+    <meta name="description" content="portfolio website for Diana Barnes">
+    <meta name="keywords" content="portfolio, website, web developer, media and it, coding.">
+
+    <title>Diana | Web Design & Developer</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/styles.css" media="screen">
+    <script src="js/main.js" defer></script>
+
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="container grid-container xyz">
+            <div class="col">
+                <h2>XYZ Power</h2>
+            </div>
+            <div class="col">
+                <p>XYZ Power a website focused on fluid layouts, flexible images, media queries, and image optimization. All three pages best match the layout provided, using a mobile approach first, with flexible images depending on screen size. Well structured CSS and use of media queries for small, medium, and large screen sizes. Photoshop, HTML, and CSS were used to complete this three page power site project.</p>
+                <div class="project-link project-link-full">
+                    <a href="https://xyzpower.dreamhosters.com/" target="_blank">Live Site
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                        </svg>
+                    </a>
+                    <a href="projects.html">Back to Projects</a>
+                </div>
+            </div>
+            <div class="col">
+                <img src="assets/img/xyz-home.webp" alt="XYZ Power home page photo" onclick="expandImage(this)">
+            </div>
+            <div class="col">
+                <img src="assets/img/xyz-your-home.webp" alt="XYZ Power you home page photo" onclick="expandImage(this)">
+            </div>
+            <div class="col">
+                <img src="assets/img/xyz-community.webp" alt="XYZ Power community page photo" onclick="expandImage(this)">
+            </div>
+        </div>
+        <div class="dark-overlay" onclick="closeExpandedImage()"></div>
+    </main>
+    <footer></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+</body>
+</html>

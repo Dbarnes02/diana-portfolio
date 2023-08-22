@@ -488,7 +488,7 @@ svg:active {
     .grid-container {
         display: grid;
         grid-template-columns: repeat(12, auto);
-        gap: 4rem;
+        column-gap: 4rem;
     }
 
     .col:first-of-type {
@@ -596,6 +596,7 @@ svg:active {
         display: flex;
         flex-direction: row;
         gap: 2.5rem;
+        padding: 2rem 0;
     }
 
     .white-horse .project-full, .typography .project-full {
